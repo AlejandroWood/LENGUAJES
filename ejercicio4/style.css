@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+span {
+    color: rgb(146, 215, 233);
+}
+
+header {
+    
+    color: white;
+    background-color: rgb(43, 110, 192);
+    padding: 10px;
+    margin: 0px;
+}
+
+header p {
+    margin-bottom: 15px;
+}
+
+ul {
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+section.hero {
+    background-color: rgb(171, 221, 228); padding: 20px;
+}
+
+li a:hover {
+    background-color: blue;
+    padding: 15px;
+}
+
+.contenedor-cursos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.curso {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+section.contenedor-cursos {
+    background-color: rgb(197, 197, 197);
+}
+
+.curso p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.curso a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+    background-color: blue;
+}
+
+a.boton:hover {
+    background-color: black;
+    padding: 8px;
+}
+
+img {
+    width: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
