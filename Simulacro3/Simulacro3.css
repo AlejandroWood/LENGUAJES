@@ -1,61 +1,124 @@
 body {
-    background-color: rgb(245, 245, 220);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-}
-
-header {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
     text-align: center;
-    color: white;
-    background-color: rgb(122, 66, 66);
-    padding-top: 15px;
-    padding-bottom: 45px;
 }
 
-h1 {
+.cabecera {
+    background-color: #7a4242;
+    color: white;
+    padding: 40px 20px;
+}
+
+.cabecera h1 {
     display: inline;
-    padding-right: 25px;
     text-transform: uppercase;
+    font-size: 2rem;
+    margin-right: 20px;
 }
 
 .subtitulo {
     display: inline;
+    font-size: 1.1rem;
 }
 
-ul {
-    background-color: rgb(139, 0, 0);
-    padding: 15px;
+.menu {
+    background-color: #8b0000;
+    padding: 10px 0;
+}
+
+.menu ul {
     margin: 0;
-    font-weight: bold;
-    text-align: center;
+    padding: 0;
+    list-style: none;
 }
 
-li {
+.menu li {
     display: inline;
-    padding: 20px;
-
+    margin: 0 15px;
 }
 
-li a {
+.menu li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-li a:hover {
-    color: black;
+.contenedor {
     background-color: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 3px dashed #ccc;
+    text-align: left;
 }
 
-main {
-    background-color: white;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    
+h2 {
+    color: #4a2c2c;
+    margin-bottom: 20px;
 }
 
-footer {
-    background-color: rgb(61, 43, 43);
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+thead th {
+    background-color: #7a4242;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr:nth-child(2) {
+    background-color: #ffe4d5;
+}
+
+.formulario-contacto label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+
+select {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+input[type="submit"] {
+    background-color: #7a4242;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 400px;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a2c2c;
+}
+
+.pie {
+    background-color: #3d2b2b;
     color: white;
     padding: 30px;
+    margin-top: 50px;
 }
